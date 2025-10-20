@@ -1,8 +1,30 @@
-let sum = 0;
+// for (let index = 0; index < 10; index++) {
+//  if (index == 5) {
+//    break;
+//  }
+//  console.log(index);
+ 
+// }
 
-for (let i = 1; i <= 50; i++) {
-  sum += i;
-  console.log(` adding ${i}, sum is: ${sum}`);
+let i = 0;
+while (i < 10) {
+  if (i ==  5) {
+    i++
+    break
+  }
+  
+  console.log(i);
+  
+ 
+// }
+
+let i = 0;
+while (i < 10) {
+  if (i ==  5) {
+    i++
+    break
+  }
+  
+  console.log(i);
+  
 }
-
-console.log(`\nFinal sum of the first 50 natural numbers is: ${sum}`);
