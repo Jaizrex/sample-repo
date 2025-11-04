@@ -1,0 +1,100 @@
+.subscribe-btn {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    margin: 0 10px  0 0;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer; 
+    transition: opacity 0.3s;   
+
+}
+.subscribe-btn:hover {
+    opacity: 0.8;
+}
+.subscribe-btn:active {
+    opacity: 0.5;
+}
+.join-btn {
+    background-color:white;
+    color:  rgb(0, 123, 255);
+    height: 36px;
+    margin: 0 10px  0 0;
+    width: 62px;
+    border-radius: 2px;
+    border: 1px solid rgb(0, 123, 255);
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;   
+
+}   
+.join-btn:hover {
+    color:white;
+    background-color:  rgb(0, 123, 255);
+}
+.join-btn:active {
+    opacity: 0.7;
+}
+.tweet-btn {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;  
+    font-size: 15px;  
+    transition: box-shadow 0.3s;
+}
+.tweet-btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.search-box{
+    width: 300px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+    padding: 0 15px;
+    font-size: 14px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow:  5px 3px 5px rgba(0, 0, 0, 0.1),  -5px -3px 5px rgba(0, 0, 0, 0.1);
+}
+.search-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.search-box:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    transform: scale(1.1);
+}
+.responsive-image {
+    width: 30px;
+    height: 30px;
+    object-position: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 70px;
+}
+.responsive-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.search-box2{
+    width: 400px;
+    height: 36px;
+
+    border: none;
+    padding: 0 15px;
+    font-size: 14px;
+ 
+    
+}
+.profile-icon{
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 10 10px 15px rgba(0, 0, 0, 0.2);
+    
+}
